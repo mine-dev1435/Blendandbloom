@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Host Grotesk", sans-serif;
+  --font-serif: "Cormorant", serif;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out forwards;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Btn_all{
+background: linear-gradient(100deg, #caa437 0%, #f0d668 25%, #caa437 50%, #f0d668 75%, #caa437 100%);
+    background-size: 200% 100%;
+}
+
+.text-\[\#eab308\], .hover\:text-\[\#eab308\]:hover {
+    background: linear-gradient(100deg, #caa437 0%, #f0d668 25%, #caa437 50%, #f0d668 75%, #caa437 100%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.border_gradient {
+    border: 1px solid transparent;
+    background-image: linear-gradient(#050505, #050505), linear-gradient(100deg, #caa437 0%, #f0d668 25%, #caa437 50%, #f0d668 75%, #caa437 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    background-size: 100% 100%, 200% 100%;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-50% - 16px)); }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
