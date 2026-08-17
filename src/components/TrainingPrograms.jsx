@@ -138,16 +138,11 @@ export default function TrainingPrograms() {
                       Apply Now
                     </a>
                     <a 
-                      href="#contact" 
-                      onClick={(e) => {
-                        e.preventDefault();
-                        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-                        window.history.pushState(null, '', '/contact');
-                      }}
+                      href="tel:+917010221841"
                       className="border_gradient font-semibold text-[12px] md:text-[13px] px-6 md:px-8 py-2.5 md:py-3 rounded-full hover:bg-white/5 transition-all text-center" 
                       style={{ color: "rgba(255,255,255,0.9)" }}
                     >
-                      Request Callback
+                      Click to Call
                     </a>
                   </div>
                 </div>
