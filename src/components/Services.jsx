@@ -119,16 +119,11 @@ export default function Services() {
                       Book Now
                     </a>
                     <a 
-                      href="#contact" 
-                      onClick={(e) => {
-                        e.preventDefault();
-                        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-                        window.history.pushState(null, '', '/contact');
-                      }}
+                      href="tel:+917010221841"
                       className="text-gray-200 hover:text-white font-semibold text-[10px] md:text-xs px-2 md:px-4 py-2 md:py-2.5 rounded-full transition-colors hover:bg-white/5 text-center flex-1" 
                       style={{ border: "1px solid var(--gold-bright)" }}
                     >
-                      Apply for Course
+                      Click to Call
                     </a>
                   </div>
                 </div>
