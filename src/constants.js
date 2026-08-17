@@ -10,17 +10,18 @@ export const NAV_LINKS = [
 ];
 
 export const SERVICES = [
-  {
-    icon: Scissors,
-    title: "Haircut & Coloring",
-    desc: "Expert styling and vibrant coloring tailored to enhance your natural beauty.",
-    img: "/img/Haircutand-coloring.jpeg",
-  },
+ 
   {
     icon: Sparkles,
     title: "Botox Treatment",
     desc: "Deep conditioning treatment to restore hydration, shine, and softness to your hair.",
-    img: "/img/Botox.jpeg",
+    img: "/img/Botox_service.jpeg",
+  },
+    {
+    icon: Sparkles,
+    title: "Makeup Mastery",
+    desc: "Editorial, bridal and camera-ready technique built on skin-first fundamentals.",
+    img: "/img/Makeup_service.jpeg",
   },
   {
     icon: Scissors,
@@ -28,11 +29,23 @@ export const SERVICES = [
     desc: "Smoothing therapy that eliminates frizz and delivers sleek, manageable hair.",
     img: "/img/Keratin.jpeg",
   },
+   {
+    icon: Scissors,
+    title: "Haircut & Coloring",
+    desc: "Expert styling and vibrant coloring tailored to enhance your natural beauty.",
+    img: "/img/Haircutand-coloring.jpeg",
+  },
   {
     icon: Sparkles,
     title: "Nanoplastia Treatment",
     desc: "Advanced hair straightening technology that nourishes and repairs from within.",
     img: "/img/Nanoplastia-reatment.jpeg",
+  },
+    {
+    icon: Sparkles,
+    title: "Manicure",
+    desc: "Nourish, shape, and beautify your nails with a refreshing manicure for soft, polished hands.",
+    img: "/img/menicure.jpeg",
   },
   {
     icon: Scissors,
@@ -40,18 +53,14 @@ export const SERVICES = [
     desc: "Premium extensions expertly applied for seamless volume and breathtaking length.",
     img: "/img/Hair-extention.jpeg",
   },
-  {
-    icon: Sparkles,
-    title: "Makeup Mastery",
-    desc: "Editorial, bridal and camera-ready technique built on skin-first fundamentals.",
-    img: "/img/Makeup-mastrey.jpeg",
-  },
+
   {
     icon: Droplet,
     title: "Skin & Spa",
     desc: "Clinical skincare and spa protocols rooted in real dermatological training.",
-    img: "/img/Skinandspa.jpeg",
+    img: "/img/skinandspa_service.jpeg",
   },
+
 ];
 
 export const CLIENTS = [
@@ -97,7 +106,7 @@ export const PROGRAMS = [
       "Cleanup & Detan Treatments",
       "Chemical Peel Fundamentals",
     ],
-    img: "/img/Skincare-course.jpeg",
+    img: "/img/skin_courseimg.png",
   },
   {
     title: "Professional Makeup Course",
@@ -108,38 +117,38 @@ export const PROGRAMS = [
       "Party & Fashion Makeup",
       "Contouring & Color Correction",
     ],
-    img: "/img/Makeup-course.jpeg",
+    img: "/img/makeup_course.png",
   },
 ];
 
 export const TEAM = [
+  {
+   name: "Sriram",
+   role: "Creative Director",
+   desc: "A skilled hair styling professional specializing in modern haircuts, styling, blow-drying, and professional salon techniques. Sriram provides hands-on training to help students develop confidence and creativity in advanced hair styling.",
+   img: "/img/Trainer-2.jpeg",
+ },
+ 
  {
-  name: "Sriram",
-  role: "Hair Styler",
-  desc: "A skilled hair styling professional specializing in modern haircuts, styling, blow-drying, and professional salon techniques. Sriram provides hands-on training to help students develop confidence and creativity in advanced hair styling.",
-  img: "/img/Trainer-2.jpeg",
-},
-
-{
-  name: "Floora",
-  role: "Beauty & Makeup Specialist",
-  desc: "A creative beauty and makeup specialist with expertise in professional makeup, beauty techniques, and client-focused styling. Floora guides students through modern makeup methods and helps them develop their creativity and professional skills.",
-  img: "/img/trainer_img3.jpeg",
-},
-
-{
-  name: "Dileep",
-  role: "Hair Extension Specialist",
-  desc: "A specialized hair extension professional with expertise in extension application, blending, styling, and maintenance techniques. Dileep provides practical training to help students master professional hair extension services and achieve natural-looking results.",
-  img: "/img/trainer_img4.jpeg",
-},
-
-{
-  name: "Mani Kandan",
-  role: "Hair Styler",
-  desc: "An experienced hair styling professional focused on modern salon techniques, creative styling, and professional client care. Mani Kandan combines practical salon experience with hands-on training to help students build strong and industry-ready hair styling skills.",
-  img: "/img/Trainer-1.jpeg",
-},
+   name: "Floora",
+   role: "Style Art Director",
+   desc: "A creative beauty and makeup specialist with expertise in professional makeup, beauty techniques, and client-focused styling. Floora guides students through modern makeup methods and helps them develop their creativity and professional skills.",
+   img: "/img/trainer_img3.jpeg",
+ },
+ 
+ {
+   name: "Dilip",
+   role: "Hair Extension Specialist",
+   desc: "A specialized hair extension professional with expertise in extension application, blending, styling, and maintenance techniques. Dileep provides practical training to help students master professional hair extension services and achieve natural-looking results.",
+   img: "/img/trainer_img4.jpeg",
+ },
+ 
+ {
+   name: "Mani Kandan",
+   role: "Art Director",
+   desc: "An experienced hair styling professional focused on modern salon techniques, creative styling, and professional client care. Mani Kandan combines practical salon experience with hands-on training to help students build strong and industry-ready hair styling skills.",
+   img: "/img/Trainer-1.jpeg",
+ },
 ];
 export const TESTIMONIALS = [
   {

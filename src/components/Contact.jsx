@@ -114,14 +114,18 @@ export default function Contact() {
                   onChange={handleChange}
                   className="border_gradient px-4 py-3.5 text-white placeholder-white focus:outline-none w-full text-sm rounded-sm"
                 />
-                <input 
-                  type="text"
+                <select
                   name="course"
-                  placeholder="Select Courses" 
                   value={formData.course}
                   onChange={handleChange}
-                  className="border_gradient px-4 py-3.5 text-white placeholder-white focus:outline-none w-full text-sm rounded-sm"
-                />
+                  className="border_gradient px-4 py-3.5 text-white placeholder-white focus:outline-none w-full text-sm rounded-sm bg-black"
+                >
+                  <option value="" disabled>Select Courses</option>
+                  <option value="Master Professional Hair Styling">Master Professional Hair Styling</option>
+                  <option value="Master Hair Extension Course">Master Hair Extension Course</option>
+                  <option value="Professional Skin Care Course">Professional Skin Care Course</option>
+                  <option value="Professional Makeup Course">Professional Makeup Course</option>
+                </select>
               </div>
 
               {/* Row 3 - Textarea */}

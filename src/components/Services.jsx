@@ -108,22 +108,22 @@ export default function Services() {
                   </p>
                   <div className="flex flex-row items-center gap-3 w-full justify-between">
                     <a 
-                      href="#book" 
+                      href="#contact" 
                       onClick={(e) => {
                         e.preventDefault();
-                        document.getElementById('book')?.scrollIntoView({ behavior: 'smooth' });
-                        window.history.pushState(null, '', '/book');
+                        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                        window.history.pushState(null, '', '/contact');
                       }}
                       className="Btn_all text-black font-semibold text-[10px] md:text-xs px-2 md:px-4 py-2 md:py-2.5 rounded-full hover:brightness-110 transition-all text-center flex-1"
                     >
                       Book Now
                     </a>
                     <a 
-                      href="#apply" 
+                      href="#contact" 
                       onClick={(e) => {
                         e.preventDefault();
-                        document.getElementById('apply')?.scrollIntoView({ behavior: 'smooth' });
-                        window.history.pushState(null, '', '/apply');
+                        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                        window.history.pushState(null, '', '/contact');
                       }}
                       className="text-gray-200 hover:text-white font-semibold text-[10px] md:text-xs px-2 md:px-4 py-2 md:py-2.5 rounded-full transition-colors hover:bg-white/5 text-center flex-1" 
                       style={{ border: "1px solid var(--gold-bright)" }}
@@ -138,7 +138,7 @@ export default function Services() {
         </div>
         
         {/* Navigation Arrows */}
-        <div className="flex justify-end gap-3 mt-8 px-6 md:px-12 max-w-7xl mx-auto">
+        <div className="flex justify-center md:justify-end gap-3 mt-8 px-6 md:px-12 max-w-7xl mx-auto">
           <button
             onClick={handlePrev}
             className="w-11 h-11 rounded-full flex items-center justify-center transition-all border border-gray-600 hover:border-[#eab308] text-gray-300 hover:text-[#eab308]"

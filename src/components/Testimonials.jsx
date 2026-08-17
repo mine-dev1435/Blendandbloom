@@ -23,10 +23,10 @@ const VIDEO_TESTIMONIALS = [
     img: "/img/Reels_img5.jpeg",
     link: "https://www.instagram.com/p/DXq0tkFgKXF/?hl=en",
   },
-  {
-    img: "/img/Reels_img6.jpeg",
-    link: "https://www.instagram.com/p/DVgPDFCE_kf/?hl=en",
-  },
+  // {
+  //   img: "/img/Reels_img6.jpeg",
+  //   link: "https://www.instagram.com/p/DVgPDFCE_kf/?hl=en",
+  // },
 ];
 
 export default function Testimonials() {
@@ -133,7 +133,7 @@ export default function Testimonials() {
           </div>
 
           {/* Navigation Arrows */}
-          <div className="flex justify-end gap-3 mt-4 px-6 md:px-12">
+          <div className="flex justify-center md:justify-end gap-3 mt-4 px-6 md:px-12">
             <button
               onClick={scrollPrev}
               className="w-11 h-11 rounded-full flex items-center justify-center transition-all border border-gray-600 hover:border-[#eab308] text-gray-300 hover:text-[#eab308]"

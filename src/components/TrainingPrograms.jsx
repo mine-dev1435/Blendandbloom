@@ -125,10 +125,28 @@ export default function TrainingPrograms() {
                   </ul>
 
                   <div className="flex flex-wrap items-center gap-3 md:gap-4">
-                    <a href="#apply" className="Btn_all font-semibold text-[12px] md:text-[13px] px-6 md:px-8 py-2.5 md:py-3 rounded-full hover:brightness-110 transition-all text-center" style={{ color: "#000" }}>
+                    <a 
+                      href="#contact" 
+                      onClick={(e) => {
+                        e.preventDefault();
+                        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                        window.history.pushState(null, '', '/contact');
+                      }}
+                      className="Btn_all font-semibold text-[12px] md:text-[13px] px-6 md:px-8 py-2.5 md:py-3 rounded-full hover:brightness-110 transition-all text-center" 
+                      style={{ color: "#000" }}
+                    >
                       Apply Now
                     </a>
-                    <a href="#callback" className="border_gradient font-semibold text-[12px] md:text-[13px] px-6 md:px-8 py-2.5 md:py-3 rounded-full hover:bg-white/5 transition-all text-center" style={{ color: "rgba(255,255,255,0.9)" }}>
+                    <a 
+                      href="#contact" 
+                      onClick={(e) => {
+                        e.preventDefault();
+                        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                        window.history.pushState(null, '', '/contact');
+                      }}
+                      className="border_gradient font-semibold text-[12px] md:text-[13px] px-6 md:px-8 py-2.5 md:py-3 rounded-full hover:bg-white/5 transition-all text-center" 
+                      style={{ color: "rgba(255,255,255,0.9)" }}
+                    >
                       Request Callback
                     </a>
                   </div>
