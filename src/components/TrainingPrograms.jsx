@@ -106,7 +106,7 @@ export default function TrainingPrograms() {
                 {/* Content Side */}
                 <div className={`flex flex-col ${i % 2 !== 0 ? "md:pr-8" : "md:pl-8"}`}>
                   <div className="mb-4 md:mb-6">
-                    <h3 className="font-bold text-white tracking-tight inline-block border-b-2 pb-2 text-xl md:text-[28px]" style={{ lineHeight: "1.3", borderColor: "var(--gold-bright)" }}>
+                    <h3 className="font-bold text-white tracking-tight inline-block border-b-2 pb-2 text-xl md:text-[27px]" style={{ lineHeight: "1.3", borderColor: "var(--gold-bright)" }}>
                       {p.title}
                     </h3>
                   </div>

@@ -54,7 +54,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="relative pt-20 pb-12 md:pb-20 flex flex-col items-center" style={{ background: "#050505" }}>
+    <section id="contact" className="relative pt-20 pb-12 md:pb-0 flex flex-col items-center" style={{ background: "#050505" }}>
       {/* Centered Top Badge */}
       <div className="w-full flex justify-center mb-8 md:mb-12">
         <div className="border_gradient inline-flex items-center gap-2.5 px-5 py-2 rounded-full">

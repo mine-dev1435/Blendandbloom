@@ -12,6 +12,10 @@ const VIDEO_TESTIMONIALS = [
     link: "https://www.instagram.com/p/DYj-NmPTcm4/?hl=en",
   },
   {
+    img: "/img/Skin_video.jpeg",
+    link: "https://www.instagram.com/p/DMgBeL_zM_N/?hl=en",
+  },
+  {
     img: "/img/Reels_img3.jpeg",
     link: "https://www.instagram.com/p/DXZIXAuzvhg/?hl=en",
   },
@@ -23,6 +27,7 @@ const VIDEO_TESTIMONIALS = [
     img: "/img/Reels_img5.jpeg",
     link: "https://www.instagram.com/p/DXq0tkFgKXF/?hl=en",
   },
+ 
   // {
   //   img: "/img/Reels_img6.jpeg",
   //   link: "https://www.instagram.com/p/DVgPDFCE_kf/?hl=en",
