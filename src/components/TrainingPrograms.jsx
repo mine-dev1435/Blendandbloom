@@ -40,13 +40,19 @@ export default function TrainingPrograms() {
         }
       });
 
-      // Animate each panel upward sequentially to replace the previous one
+      // Animate each panel upward sequentially and fade out the previous one
       panels.forEach((panel, i) => {
         if (i === 0) return; // Panel 0 is already at 0%
+        
         tl.to(panel, {
           yPercent: 0,
           ease: "none"
-        });
+        }, `step${i}`)
+        .to(panels[i - 1], {
+          opacity: 0.2,
+          yPercent: 30,
+          ease: "none"
+        }, `step${i}`);
       });
 
     }, containerRef);
@@ -125,21 +131,21 @@ export default function TrainingPrograms() {
                   </ul>
 
                   <div className="flex flex-wrap items-center gap-3 md:gap-4">
-                    <a 
-                      href="#contact" 
+                    <a
+                      href="#contact"
                       onClick={(e) => {
                         e.preventDefault();
                         document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
                         window.history.pushState(null, '', '/contact');
                       }}
-                      className="Btn_all font-semibold text-[12px] md:text-[13px] px-6 md:px-8 py-2.5 md:py-3 rounded-full hover:brightness-110 transition-all text-center" 
+                      className="Btn_all font-semibold text-[12px] md:text-[13px] px-6 md:px-8 py-2.5 md:py-3 rounded-full hover:brightness-110 transition-all text-center"
                       style={{ color: "#000" }}
                     >
                       Apply Now
                     </a>
-                    <a 
+                    <a
                       href="tel:+917010221841"
-                      className="border_gradient font-semibold text-[12px] md:text-[13px] px-6 md:px-8 py-2.5 md:py-3 rounded-full hover:bg-white/5 transition-all text-center" 
+                      className="border_gradient font-semibold text-[12px] md:text-[13px] px-6 md:px-8 py-2.5 md:py-3 rounded-full hover:bg-white/5 transition-all text-center"
                       style={{ color: "rgba(255,255,255,0.9)" }}
                     >
                       Click to Call
